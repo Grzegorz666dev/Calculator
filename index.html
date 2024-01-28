@@ -11,38 +11,31 @@
 <body>
 
     <div class="calculator">
-
-
         <input type="text" id="display" disabled>
-
         <div class="keys">
+            <button id="addBtn">+</button>
+            <button id="subtractBtn">-</button>
+            <button id="multiplyBtn">*</button>
+            <button id="divideBtn">/</button>
 
-            <button onclick="appendCharacter('+')">+</button>
-            <button onclick="appendCharacter('-')">-</button>
-            <button onclick="appendCharacter('*')">&#215</button>
-            <button onclick="appendCharacter('/')">&#247</button>
+            <button id="num7Btn">7</button>
+            <button id="num8Btn">8</button>
+            <button id="num9Btn">9</button>
 
-            <button onclick="appendCharacter('7')">7</button>
-            <button onclick="appendCharacter('8')">8</button>
-            <button onclick="appendCharacter('9')">9</button>
+            <button id="num4Btn">4</button>
+            <button id="num5Btn">5</button>
+            <button id="num6Btn">6</button>
 
-            <button onclick="appendCharacter('4')">4</button>
-            <button onclick="appendCharacter('5')">5</button>
-            <button onclick="appendCharacter('6')">6</button>
+            <button id="num1Btn">1</button>
+            <button id="num2Btn">2</button>
+            <button id="num3Btn">3</button>
 
-            <button onclick="appendCharacter('1')">1</button>
-            <button onclick="appendCharacter('2')">2</button>
-            <button onclick="appendCharacter('3')">3</button>
-
-            <button onclick="clearDisplay()">AC</button>
-            <button onclick="appendCharacter('0')">0</button>
-            <button onclick="appendCharacter('.')">.</button>
-            
-            <button id="operator" onclick="calculateResult()">=</button>
-
+            <button id="clearBtn">C</button>
+            <button id="num0Btn">0</button>
+            <button id="calculateBtn">=</button>
         </div>
-
     </div>
-<script src = "app.js" ></script>
+    <script src="app.js"></script>
 </body>
+
 </html>
